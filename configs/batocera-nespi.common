@@ -1,0 +1,3 @@
+# NESPi: Karaoke appliance package selection
+# Include this from any nespi-*.board file to add USDX to that target.
+BR2_PACKAGE_ULTRASTAR_DELUXE=y

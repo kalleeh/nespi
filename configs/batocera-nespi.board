@@ -1,0 +1,2 @@
+include batocera-bcm2712.board
+include batocera-nespi.common
