@@ -695,6 +695,9 @@ tutor:
 tyrian:
   emulator: tyrian
   core:     tyrian
+ultrastar-deluxe:
+  emulator: ultrastar-deluxe
+  core:     ultrastar-deluxe
 uqm:
   emulator: uqm
   core:     uqm

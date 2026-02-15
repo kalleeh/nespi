@@ -57,6 +57,7 @@ _GENERATOR_MAP: Final[dict[str, tuple[str, str]]] = {
     'theforceengine': ('theforceengine.theforceengineGenerator', 'TheForceEngineGenerator'),
     'thextech': ('thextech.thextechGenerator', 'TheXTechGenerator'),
     'tr1x': ('tr1x.tr1xGenerator', 'TR1XGenerator'),
+    'ultrastar-deluxe': ('ultrastar_deluxe.ultrastarDeluxeGenerator', 'UltrastarDeluxeGenerator'),
     'tr2x': ('tr2x.tr2xGenerator', 'TR2XGenerator'),
     'vkquake': ('vkquake.vkquakeGenerator', 'VKQuakeGenerator'),
     'vkquake2': ('vkquake2.vkquake2Generator', 'VKQuake2Generator'),

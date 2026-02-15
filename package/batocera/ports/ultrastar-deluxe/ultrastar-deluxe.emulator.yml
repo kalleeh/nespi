@@ -1,0 +1,18 @@
+features:
+  - padtokeyboard
+shared_features:
+  - powermode
+  - tdp
+  - videomode
+  - bezel
+  - bezel_stretch
+custom_features:
+  microphone:
+    prompt: MICROPHONE
+    description: Select the microphone input device number.
+    choices:
+      Default: 0
+      Device 1: 1
+      Device 2: 2
+systems:
+  - ultrastar-deluxe

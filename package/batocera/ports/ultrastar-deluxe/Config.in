@@ -1,0 +1,22 @@
+config BR2_PACKAGE_ULTRASTAR_DELUXE
+	bool "ultrastar-deluxe"
+	select BR2_PACKAGE_SDL2
+	select BR2_PACKAGE_SDL2_IMAGE
+	select BR2_PACKAGE_SDL2_MIXER
+	select BR2_PACKAGE_SDL2_TTF
+	select BR2_PACKAGE_FFMPEG
+	select BR2_PACKAGE_PORTAUDIO
+	select BR2_PACKAGE_SQLITE
+	select BR2_PACKAGE_FREETYPE
+	select BR2_PACKAGE_LUA
+	help
+	  UltraStar Deluxe karaoke game (pre-built ARM64 binary).
+
+	  A free and open-source karaoke game similar to SingStar.
+	  Supports UltraStar song format with lyrics, pitch detection,
+	  and scoring.
+
+	  This package installs a pre-compiled binary that was built
+	  separately using Free Pascal in a Lima VM.
+
+	  https://github.com/UltraStarDeluxe/USDX

@@ -5354,6 +5354,22 @@ sonic-mania:
   comment_br: |
     Para mais informações: https://wiki.batocera.org/systems:sonic-mania
 
+ultrastar-deluxe:
+  name: UltraStar Deluxe
+  manufacturer: Ports
+  release: 2007
+  hardware: port
+  extensions: [game]
+  platform: pc
+  group: ports
+  emulators:
+    ultrastar-deluxe:
+      ultrastar-deluxe: { requireAnyOf: [BR2_PACKAGE_ULTRASTAR_DELUXE] }
+  comment_en: |
+    UltraStar Deluxe is a free karaoke game. Place your songs
+    (UltraStar .txt format with audio files) in the songs subfolder.
+    Create a file called 'UltraStar Deluxe.game' to launch the game.
+
 uqm:
   name: Ur-Quan Masters
   manufacturer: Ports
